@@ -10,8 +10,8 @@ module.exports = {
   mode: process.env.NODE_ENV,
   context: path.resolve(__dirname, "./src"),
   entry: {
-    index: "index.js",
-    about: "about.js"
+    index: "index",
+    factory: "factory"
   },
   output: {
     // 預設output資料夾 ./dist ,也可自訂path修改如下
