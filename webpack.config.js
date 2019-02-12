@@ -11,7 +11,9 @@ module.exports = {
   context: path.resolve(__dirname, "./src"),
   entry: {
     index: "index",
-    factory: "factory"
+    factory: "factory",
+    singleton: "singleton",
+    observers: "observers"
   },
   output: {
     // 預設output資料夾 ./dist ,也可自訂path修改如下
